@@ -17,6 +17,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileHandling", "FileHandlin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileDownload", "FileDownload\FileDownload.csproj", "{0124B0C8-5915-4408-8DA3-14248239808A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SavePersonInfo", "SavePersonInfo\SavePersonInfo.csproj", "{B343C3FF-E34D-4B76-AFDA-EBE76CDB80B8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +45,10 @@ Global
 		{0124B0C8-5915-4408-8DA3-14248239808A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0124B0C8-5915-4408-8DA3-14248239808A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0124B0C8-5915-4408-8DA3-14248239808A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B343C3FF-E34D-4B76-AFDA-EBE76CDB80B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B343C3FF-E34D-4B76-AFDA-EBE76CDB80B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B343C3FF-E34D-4B76-AFDA-EBE76CDB80B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B343C3FF-E34D-4B76-AFDA-EBE76CDB80B8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -53,6 +59,7 @@ Global
 		{4A439B4E-3F06-4F97-9587-274AD7FBC1B5} = {8BC32020-EFED-48CC-810C-92B627E209D2}
 		{2BB6C356-0948-41C9-AD9D-EC31E725A178} = {905A5165-08E6-41A7-AB6B-23BE7EECFF46}
 		{0124B0C8-5915-4408-8DA3-14248239808A} = {905A5165-08E6-41A7-AB6B-23BE7EECFF46}
+		{B343C3FF-E34D-4B76-AFDA-EBE76CDB80B8} = {905A5165-08E6-41A7-AB6B-23BE7EECFF46}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1A964BD6-DFF9-4DCB-B20B-EC485F67E377}
