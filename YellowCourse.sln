@@ -15,9 +15,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "w18", "w18", "{905A5165-08E
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileHandling", "FileHandling\FileHandling.csproj", "{2BB6C356-0948-41C9-AD9D-EC31E725A178}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileDownload", "FileDownload\FileDownload.csproj", "{0124B0C8-5915-4408-8DA3-14248239808A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileDownload", "FileDownload\FileDownload.csproj", "{0124B0C8-5915-4408-8DA3-14248239808A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SavePersonInfo", "SavePersonInfo\SavePersonInfo.csproj", "{B343C3FF-E34D-4B76-AFDA-EBE76CDB80B8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SavePersonInfo", "SavePersonInfo\SavePersonInfo.csproj", "{B343C3FF-E34D-4B76-AFDA-EBE76CDB80B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GithubCrawler", "GithubCrawler\GithubCrawler.csproj", "{6BDBABC9-B909-481F-8308-14BB6E8D3794}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,6 +51,10 @@ Global
 		{B343C3FF-E34D-4B76-AFDA-EBE76CDB80B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B343C3FF-E34D-4B76-AFDA-EBE76CDB80B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B343C3FF-E34D-4B76-AFDA-EBE76CDB80B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BDBABC9-B909-481F-8308-14BB6E8D3794}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BDBABC9-B909-481F-8308-14BB6E8D3794}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BDBABC9-B909-481F-8308-14BB6E8D3794}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BDBABC9-B909-481F-8308-14BB6E8D3794}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -60,6 +66,7 @@ Global
 		{2BB6C356-0948-41C9-AD9D-EC31E725A178} = {905A5165-08E6-41A7-AB6B-23BE7EECFF46}
 		{0124B0C8-5915-4408-8DA3-14248239808A} = {905A5165-08E6-41A7-AB6B-23BE7EECFF46}
 		{B343C3FF-E34D-4B76-AFDA-EBE76CDB80B8} = {905A5165-08E6-41A7-AB6B-23BE7EECFF46}
+		{6BDBABC9-B909-481F-8308-14BB6E8D3794} = {905A5165-08E6-41A7-AB6B-23BE7EECFF46}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1A964BD6-DFF9-4DCB-B20B-EC485F67E377}
