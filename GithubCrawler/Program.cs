@@ -4,9 +4,9 @@ namespace GithubCrawler
 {
     internal class Program
     {
-        static void Main(string[] args)
+        static async Task Main(string[] args)
         {
-            Console.Write("Enter repo name: ");
+            Console.Write("Enter repo name: "); // my course
             var repoName = Console.ReadLine();
 
             if (string.IsNullOrWhiteSpace(repoName))
@@ -16,7 +16,7 @@ namespace GithubCrawler
             }
 
             // search repos by name
-            var repos = GitHubSearchService.SearchRepos(repoName);
+            var repos = await GitHubSearchService.SearchRepos(repoName);
             if (repos is null || repos.Count == 0)
             {
                 Console.WriteLine($"No repo found by name {repoName}");
