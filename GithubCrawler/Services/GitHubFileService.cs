@@ -9,7 +9,7 @@ namespace GithubCrawler.Services
 {
     public class GitHubFileService
     {
-        public void WriteRepos(List<GithubRepo> repos, string folder)
+        public static void WriteRepos(List<GithubRepo> repos, string folder)
         {
 
         }

@@ -9,7 +9,7 @@ namespace GithubCrawler.Services
 {
     public class GitHubSearchService
     {
-        public List<GithubRepo> SearchRepos(string name)
+        public static List<GithubRepo> SearchRepos(string name)
         {
             return [];
         }
